@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import logo from './logo.svg';
+import logo from './logo2.png';
 
 import './App.css';
 
@@ -43,20 +43,12 @@ render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/*<img src={logo} className="App-logo" alt="logo" />*/}
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Illinois Tech Tips 
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
         </header>
-        <p>{this.state.response}</p>
+        <p className="Submit-header">{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>
           <p>
             <strong>Post to Server:</strong>

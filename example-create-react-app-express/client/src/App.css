@@ -14,26 +14,28 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #d9ad28;
+  font-weight: bold;
   padding-bottom: 10px;
+  background-color: #c5dacd;
 }
 
-.App-link {
-  color: #61dafb;
+.Submit-header {
+  color: #747a52;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+}*/
