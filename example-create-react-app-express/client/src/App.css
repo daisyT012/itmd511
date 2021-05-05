@@ -15,11 +15,25 @@
   }
 }
 
-.navbar-custom{
-  background-color: #c91b7e;
+form{
+  margin-bottom: 20px;
 }
 
-.App-header {
+.col {
+  border: 2px solid #c5dacd;
+  background-color: #c5dacd;
+  color: #747a52;
+  border-radius: 5px;
+  text-align: left;
+  margin:10px;
+  padding: 10px;
+}
+
+.row{
+  margin: 10px;
+}
+
+.Tip-header {
   min-height: 50%;
   display: flex;
   flex-direction: column;
@@ -28,8 +42,16 @@
   font-size: calc(10px + 2vmin);
   color: #d9ad28;
   font-weight: bold;
-  padding-bottom: 10px;
-  background-color: #c5dacd;
+  padding: 10px;
+
+}
+
+.header-wrapper {
+  position: relative;
+  background: url(cap.PNG) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
 }
 
 /*.Submit-header {
