@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color: #747a52;
+  font-weight: bold;
 }
 
 .App-logo {
@@ -11,6 +13,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.navbar-custom{
+  background-color: #c91b7e;
 }
 
 .App-header {
@@ -26,10 +32,10 @@
   background-color: #c5dacd;
 }
 
-.Submit-header {
+/*.Submit-header {
   color: #747a52;
   font-weight: bold;
-}
+}*/
 
 /*@keyframes App-logo-spin {
   from {
