@@ -21,7 +21,7 @@ it('renders button', () => {
 
 it('renders input textbox', () => {
   render(<Submit />)
-  const input = screen.getByPlaceholderText('tips');
+  const input = screen.getByPlaceholderText('tip');
   expect(input).toBeInTheDocument();
 })
 

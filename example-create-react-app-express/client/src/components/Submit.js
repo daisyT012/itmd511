@@ -38,19 +38,19 @@ class Submit extends Component {
 render() {
     return (
       <div className="App">
-        <header className="Tip-header">
+        <header className="tip-header">
           {/*<img src={logo} className="App-logo" alt="logo" />*/}
           <p>{this.state.response}</p>
         </header>
         <form onSubmit={this.handleSubmit}>
           <p>Post to Server:</p>
           <input
-            placeholder="tips"
+            placeholder="tip"
             type="text"
             value={this.state.post}
             onChange={e => this.setState({ post: e.target.value })}
           />
-          <button ref="forks" type="submit">Submit</button>
+          <button type="submit">Submit</button>
         </form>
         <p>{this.state.responseToPost}</p>
       </div>
