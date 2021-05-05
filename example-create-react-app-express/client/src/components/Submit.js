@@ -38,13 +38,10 @@ class Submit extends Component {
 render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="Tip-header">
           {/*<img src={logo} className="App-logo" alt="logo" />*/}
-          <p>
-            Illinois Tech Tips 
-          </p>
+          <p>{this.state.response}</p>
         </header>
-        <p>{this.state.response}</p>
         <form onSubmit={this.handleSubmit}>
           <p>
             Post to Server:

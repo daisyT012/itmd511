@@ -38,25 +38,16 @@ class Tips extends Component {
 render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {/*<img src={logo} className="App-logo" alt="logo" />*/}
-          <p>
-            Illinois Tech Tips 
-          </p>
+        <header className="Tip-header">
+          <p>Tips</p>
         </header>
-        <p>{this.state.response}</p>
-        <form onSubmit={this.handleSubmit}>
-          <p>
-            Post to Server:
-          </p>
-          <input
-            type="text"
-            value={this.state.post}
-            onChange={e => this.setState({ post: e.target.value })}
-          />
-          <button type="submit">Submit</button>
-        </form>
-        <p>{this.state.responseToPost}</p>
+        <div class="row">
+        <div class="col">Use this link to organize your classes.</div>
+        <div class="col">Gradually study to prepare for your exams. Even if you study for a few minutes each day.</div>
+        <div class="w-100"></div>
+        <div class="col">Always look at your requirements and audits. Ensure that you plan out your semesters to have some variety.</div>
+        <div class="col">{this.state.responseToPost}</div>
+        </div>
       </div>
     );
   }

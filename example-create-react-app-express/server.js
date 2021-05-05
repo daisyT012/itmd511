@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/api/hello', (req, res) => {
-  res.send({ express: 'Submit a Tip for the Illinois Tech community.' });
+  res.send({ express: 'Submit a Tip!' });
 });
 
 app.post('/api/world', (req, res) => {
