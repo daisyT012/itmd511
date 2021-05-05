@@ -43,15 +43,14 @@ render() {
           <p>{this.state.response}</p>
         </header>
         <form onSubmit={this.handleSubmit}>
-          <p>
-            Post to Server:
-          </p>
+          <p>Post to Server:</p>
           <input
+            placeholder="tips"
             type="text"
             value={this.state.post}
             onChange={e => this.setState({ post: e.target.value })}
           />
-          <button type="submit">Submit</button>
+          <button ref="forks" type="submit">Submit</button>
         </form>
         <p>{this.state.responseToPost}</p>
       </div>

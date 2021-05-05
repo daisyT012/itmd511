@@ -4,6 +4,10 @@
   font-weight: bold;
 }
 
+.App-link {
+  color: #d9ad28;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -33,7 +37,7 @@ form{
   margin: 10px;
 }
 
-.Tip-header {
+.tip-header {
   min-height: 50%;
   display: flex;
   flex-direction: column;
